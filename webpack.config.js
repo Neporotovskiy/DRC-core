@@ -18,7 +18,7 @@ const CONFIGURATION = {
     output: {
         path: resolve(__dirname, 'build'),
         filename: 'index.js',
-        library: 'DelmaResourceCalculatorCore',
+        library: 'DelmaResourceCalculator',
         libraryTarget: 'umd',
         umdNamedDefine: true
     },

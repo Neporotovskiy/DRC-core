@@ -1,6 +1,6 @@
 {
     "name": "delma-resource-calculator-core",
-    "version": "1.0.6",
+    "version": "1.0.5",
     "author": "Anton Neporotovskiy",
     "license": "MIT",
     "main": "build/index.js",
