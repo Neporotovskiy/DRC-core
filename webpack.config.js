@@ -18,6 +18,7 @@ const CONFIGURATION = {
     output: {
         path: resolve(__dirname, 'build'),
         filename: 'index.js',
+        library: 'DelmaResourceCalculator',
     },
     resolve: {
         extensions: ['.js'],
