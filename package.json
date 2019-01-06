@@ -3,7 +3,7 @@
     "version": "1.0.4",
     "author": "Anton Neporotovskiy",
     "license": "MIT",
-    "main": "build/build.js",
+    "main": "build/index.js",
     "scripts": {
         "clear": "rimraf cache build",
         "start:webpack": "webpack --mode=production --watch",
