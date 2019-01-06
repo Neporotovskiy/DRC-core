@@ -24,7 +24,7 @@ BLUEPRINTS SET EXAMPLE
 /*
 USAGE EXAMPLE
 
-new DelmaResourceCalculator(blueprints)
+new DelmaResourceCalculatorCore(blueprints)
     .setLogger(({ step, status, name, error }) => console.log(step, status, name, error))
     .setAssetLength(6000)
     .setCuttingEdgeWidth(1)
@@ -38,9 +38,9 @@ new DelmaResourceCalculator(blueprints)
 */
 
 /**
- * Delma Resource Calculator
+ * Delma Resource Calculator Core
  */
-export class DelmaResourceCalculator {
+export class DelmaResourceCalculatorCore {
     constructor(data) {
         this.data = data;
         this.output = null;
