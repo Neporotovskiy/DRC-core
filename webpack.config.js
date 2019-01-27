@@ -20,7 +20,8 @@ const CONFIGURATION = {
         filename: 'index.js',
         library: 'DelmaResourceCalculatorCore',
         libraryTarget: 'umd',
-        umdNamedDefine: true
+        globalObject: 'self',
+        umdNamedDefine: true,
     },
     resolve: {
         extensions: ['.js'],

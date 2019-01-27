@@ -25,15 +25,15 @@ BLUEPRINTS SET EXAMPLE
 USAGE EXAMPLE
 
 new DelmaResourceCalculatorCore(blueprints)
-    .setLogger(({ step, status, name, error }) => console.log(step, status, name, error))
+    .setLogger(({ step, status, error }) => console.log(step, status, error))
     .setAssetLength(6000)
     .setCuttingEdgeWidth(1)
     .setCalculationAccuracy(1)
     .calculate(data => {
-        // Do something with recevied data
+        // Do something with received data
     })
     .analyze(data => {
-        // Do something with recevied data
+        // Do something with received data
     });
 */
 
